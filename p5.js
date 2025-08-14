@@ -3,7 +3,11 @@ function resultReport(marks) {
     return "Invalid";
   }
   if (marks.length === 0) {
-    return { finalScore: 0, pass: 0, fail: 0 };
+    return {
+      finalScore: 0,
+      pass: 0,
+      fail: 0,
+    };
   }
   let total = 0;
   let p = 0;
@@ -19,12 +23,12 @@ function resultReport(marks) {
   }
 
   let average = total / marks.length;
-  let finalScore = Math.round(average);
+  let result = Math.round(average);
 
   return {
-    finalScore: finalScore,
+    finalScore: result,
     pass: p,
     fail: f,
   };
 }
-console.log(resultReport([99]));
+console.log(resultReport([99, 22]));
