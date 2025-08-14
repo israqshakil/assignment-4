@@ -31,4 +31,4 @@ function resultReport(marks) {
     fail: f,
   };
 }
-console.log(resultReport([99, 22]));
+console.log(resultReport([99, 22, 23, 43]));

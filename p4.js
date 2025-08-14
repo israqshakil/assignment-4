@@ -12,4 +12,4 @@ function isSame(arr1, arr2) {
   }
   return true;
 }
-console.log(isSame());
+console.log(isSame([1, 4, 5], [1, 4, 5]));
