@@ -5,4 +5,4 @@ function onlyCharacter(str) {
   let newString = str.replace(/\s/g, "").toUpperCase();
   return newString;
 }
-console.log(onlyCharacter(false));
+console.log(onlyCharacter());

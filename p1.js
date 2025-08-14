@@ -5,4 +5,4 @@ function totalFine(fare) {
   let fine = fare + fare * 0.2 + 30;
   return fine;
 }
-console.log(totalFine(true));
+console.log(totalFine());
